@@ -1,0 +1,16 @@
+ORDEN
+
+A persistir:
+POST: idOrden, idComprador, idProducto, precio, estado, fecha
+
+JSON:
+*/orden 	--> POST
+{
+	"id_comprador": 1,
+	"id_producto": 1,
+	"tarjeta": {
+		"numero": "5491111223333445691957",
+		"vencimiento": "yyyy-mm",
+		"cvc": "957"
+	}
+}
